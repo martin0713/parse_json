@@ -7,6 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['prefix' => 'parse'], function () {
-    Route::get('/all', [Parse::class, 'all']);
-});
+Route::controller(Parse::class)
+    ->prefix('parse')
+    ->group(function () {
+        Route::get('/all', 'all');
+        Route::get('/offers', 'offers');
+    });

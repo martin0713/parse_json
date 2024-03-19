@@ -15,4 +15,9 @@ class ParseController extends Controller
     {
         return $this->service->all();
     }
+
+    public function offers(): array //\Illuminate\Support\Collection
+    {
+        return $this->service->offers();
+    }
 }
