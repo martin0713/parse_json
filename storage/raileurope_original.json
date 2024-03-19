@@ -1,0 +1,1502 @@
+{
+    "id": "2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed",
+    "pointOfSale": "KA-RESAS-GREATER_CHINA-TAIWAN-1073790",
+    "legs": [
+        {
+            "origin": {
+                "id": "HHzJ8YkBEQEvLoJ8I8sQ",
+                "type": "city",
+                "code": "FR:paris",
+                "label": "Paris (All stations)",
+                "localLabel": "Paris (All stations)",
+                "timezone": "Europe/Paris"
+            },
+            "destination": {
+                "id": "LnzJ8YkBEQEvLoJ8I8sR",
+                "type": "city",
+                "code": "NL:amsterdam",
+                "label": "Amsterdam",
+                "localLabel": "Amsterdam",
+                "timezone": "Europe/Amsterdam"
+            },
+            "departure": "2023-08-18T14:00:00",
+            "directOnly": false,
+            "solutions": [
+                {
+                    "id": "c669cb10-221b-4b63-b3c3-ccca43f9ab0c",
+                    "origin": {
+                        "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                        "type": "station",
+                        "code": "FR:paris_nord",
+                        "label": "Paris Gare du Nord",
+                        "localLabel": "Paris Gare du Nord",
+                        "timezone": "Europe/Paris"
+                    },
+                    "destination": {
+                        "id": "jSDJ8YkBpVrMHsVOBLha",
+                        "type": "station",
+                        "code": "NL:amsterdam_centraal",
+                        "label": "Amsterdam Central",
+                        "localLabel": "Amsterdam Centraal",
+                        "timezone": "Europe/Amsterdam"
+                    },
+                    "departure": "2023-08-18T14:22:00",
+                    "arrival": "2023-08-18T17:44:00",
+                    "duration": "PT3H22M",
+                    "segments": [
+                        {
+                            "id": "117cbe8a-1517-4078-bfdc-0e7548594b5e",
+                            "sequenceNumber": 0,
+                            "origin": {
+                                "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                                "type": "station",
+                                "code": "FR:paris_nord",
+                                "label": "Paris Gare du Nord",
+                                "localLabel": "Paris Gare du Nord",
+                                "timezone": "Europe/Paris"
+                            },
+                            "destination": {
+                                "id": "jSDJ8YkBpVrMHsVOBLha",
+                                "type": "station",
+                                "code": "NL:amsterdam_centraal",
+                                "label": "Amsterdam Central",
+                                "localLabel": "Amsterdam Centraal",
+                                "timezone": "Europe/Amsterdam"
+                            },
+                            "departure": "2023-08-18T14:22:00",
+                            "arrival": "2023-08-18T17:44:00",
+                            "duration": "PT3H22M",
+                            "operatingCarrier": "Thalys",
+                            "marketingCarrier": "THALYS",
+                            "vehicle": {
+                                "type": "Thalys",
+                                "reference": "9351",
+                                "code": "thalys"
+                            },
+                            "type": "train",
+                            "marketingInformation": "PAO_THALYS"
+                        }
+                    ],
+                    "travelerInformationRequired": {
+                        "defaultTravelerInformationRequired": [
+                            "TITLE",
+                            "LAST_NAME",
+                            "FIRST_NAME"
+                        ],
+                        "leadTravelerInformationRequired": [
+                            "EMAIL",
+                            "PHONE_NUMBER"
+                        ]
+                    }
+                },
+                {
+                    "id": "aae32df1-2704-4444-95eb-f77238b738af",
+                    "origin": {
+                        "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                        "type": "station",
+                        "code": "FR:paris_nord",
+                        "label": "Paris Gare du Nord",
+                        "localLabel": "Paris Gare du Nord",
+                        "timezone": "Europe/Paris"
+                    },
+                    "destination": {
+                        "id": "jSDJ8YkBpVrMHsVOBLha",
+                        "type": "station",
+                        "code": "NL:amsterdam_centraal",
+                        "label": "Amsterdam Central",
+                        "localLabel": "Amsterdam Centraal",
+                        "timezone": "Europe/Amsterdam"
+                    },
+                    "departure": "2023-08-18T15:22:00",
+                    "arrival": "2023-08-18T18:44:00",
+                    "duration": "PT3H22M",
+                    "segments": [
+                        {
+                            "id": "8de00129-5f10-4d42-9ebe-be7ac5eda449",
+                            "sequenceNumber": 0,
+                            "origin": {
+                                "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                                "type": "station",
+                                "code": "FR:paris_nord",
+                                "label": "Paris Gare du Nord",
+                                "localLabel": "Paris Gare du Nord",
+                                "timezone": "Europe/Paris"
+                            },
+                            "destination": {
+                                "id": "jSDJ8YkBpVrMHsVOBLha",
+                                "type": "station",
+                                "code": "NL:amsterdam_centraal",
+                                "label": "Amsterdam Central",
+                                "localLabel": "Amsterdam Centraal",
+                                "timezone": "Europe/Amsterdam"
+                            },
+                            "departure": "2023-08-18T15:22:00",
+                            "arrival": "2023-08-18T18:44:00",
+                            "duration": "PT3H22M",
+                            "operatingCarrier": "Thalys",
+                            "marketingCarrier": "THALYS",
+                            "vehicle": {
+                                "type": "Thalys",
+                                "reference": "9357",
+                                "code": "thalys"
+                            },
+                            "type": "train",
+                            "marketingInformation": "PAO_THALYS"
+                        }
+                    ],
+                    "travelerInformationRequired": {
+                        "defaultTravelerInformationRequired": [
+                            "TITLE",
+                            "LAST_NAME",
+                            "FIRST_NAME"
+                        ],
+                        "leadTravelerInformationRequired": [
+                            "EMAIL",
+                            "PHONE_NUMBER"
+                        ]
+                    }
+                },
+                {
+                    "id": "8c676dc9-5f2e-438f-ac94-438980b1e32c",
+                    "origin": {
+                        "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                        "type": "station",
+                        "code": "FR:paris_nord",
+                        "label": "Paris Gare du Nord",
+                        "localLabel": "Paris Gare du Nord",
+                        "timezone": "Europe/Paris"
+                    },
+                    "destination": {
+                        "id": "jSDJ8YkBpVrMHsVOBLha",
+                        "type": "station",
+                        "code": "NL:amsterdam_centraal",
+                        "label": "Amsterdam Central",
+                        "localLabel": "Amsterdam Centraal",
+                        "timezone": "Europe/Amsterdam"
+                    },
+                    "departure": "2023-08-18T16:25:00",
+                    "arrival": "2023-08-18T19:44:00",
+                    "duration": "PT3H19M",
+                    "segments": [
+                        {
+                            "id": "9ff4e799-a4fa-47ce-812b-8225a42cc138",
+                            "sequenceNumber": 0,
+                            "origin": {
+                                "id": "OXzJ8YkBEQEvLoJ8BpTz",
+                                "type": "station",
+                                "code": "FR:paris_nord",
+                                "label": "Paris Gare du Nord",
+                                "localLabel": "Paris Gare du Nord",
+                                "timezone": "Europe/Paris"
+                            },
+                            "destination": {
+                                "id": "jSDJ8YkBpVrMHsVOBLha",
+                                "type": "station",
+                                "code": "NL:amsterdam_centraal",
+                                "label": "Amsterdam Central",
+                                "localLabel": "Amsterdam Centraal",
+                                "timezone": "Europe/Amsterdam"
+                            },
+                            "departure": "2023-08-18T16:25:00",
+                            "arrival": "2023-08-18T19:44:00",
+                            "duration": "PT3H19M",
+                            "operatingCarrier": "Thalys",
+                            "marketingCarrier": "THALYS",
+                            "vehicle": {
+                                "type": "Thalys",
+                                "reference": "9363",
+                                "code": "thalys"
+                            },
+                            "type": "train",
+                            "marketingInformation": "PAO_THALYS"
+                        }
+                    ],
+                    "travelerInformationRequired": {
+                        "defaultTravelerInformationRequired": [
+                            "TITLE",
+                            "LAST_NAME",
+                            "FIRST_NAME"
+                        ],
+                        "leadTravelerInformationRequired": [
+                            "EMAIL",
+                            "PHONE_NUMBER"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "travelers": [
+        {
+            "id": "traveler-adult-1",
+            "age": 30,
+            "type": "ADULT"
+        },
+        {
+            "id": "traveler-senior-2",
+            "age": 65,
+            "type": "SENIOR"
+        }
+    ],
+    "offers": [
+        {
+            "type": "point-to-point-offer",
+            "id": "3623aa3f-16c9-4dff-904e-810d7c534064",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 298,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 8.94,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130484302Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/3623aa3f-16c9-4dff-904e-810d7c534064",
+            "fareOffers": [
+                {
+                    "id": "3b4016c9-9dd2-435b-b778-7f4adddde37c",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_standard_THALYS_all_Standard",
+                            "segments": [
+                                "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 298,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 8.94,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 298,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 8.94,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "c669cb10-221b-4b63-b3c3-ccca43f9ab0c",
+            "comfortCategory": {
+                "code": "STANDARD",
+                "label": "Standard"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "cdd7ffeb-ecc4-417b-bc7c-dc36c3cbc28a",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 338,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 10.14,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130484625Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/cdd7ffeb-ecc4-417b-bc7c-dc36c3cbc28a",
+            "fareOffers": [
+                {
+                    "id": "da18b46d-0b0a-480c-a7ea-df9b96a0be0d",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_comfort_THALYS_all_Comfort",
+                            "segments": [
+                                "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 338,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 10.14,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 338,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 10.14,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "c669cb10-221b-4b63-b3c3-ccca43f9ab0c",
+            "comfortCategory": {
+                "code": "COMFORT",
+                "label": "Comfort"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "101f978d-c218-4451-97d6-aa4d0eac8e71",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 440,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 13.2,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.13048476Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/101f978d-c218-4451-97d6-aa4d0eac8e71",
+            "fareOffers": [
+                {
+                    "id": "4a1b535f-a70b-47a5-ae48-6bd213cafceb",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_premium_THALYS_all_Premium",
+                            "segments": [
+                                "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 440,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 13.2,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 440,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 13.2,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "117cbe8a-1517-4078-bfdc-0e7548594b5e"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "c669cb10-221b-4b63-b3c3-ccca43f9ab0c",
+            "comfortCategory": {
+                "code": "PREMIER",
+                "label": "Premier"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "a4f06398-4556-4050-9f3d-2f239e7c0ec9",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 338,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 10.14,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130484874Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/a4f06398-4556-4050-9f3d-2f239e7c0ec9",
+            "fareOffers": [
+                {
+                    "id": "37dfb34e-0fa6-4ffb-be1d-5934abd16334",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_comfort_THALYS_all_Comfort",
+                            "segments": [
+                                "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 338,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 10.14,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 338,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 10.14,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "aae32df1-2704-4444-95eb-f77238b738af",
+            "comfortCategory": {
+                "code": "COMFORT",
+                "label": "Comfort"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "34cd7da2-8fc6-4f4a-8f03-d9a4e753dc60",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 440,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 13.2,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130484988Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/34cd7da2-8fc6-4f4a-8f03-d9a4e753dc60",
+            "fareOffers": [
+                {
+                    "id": "7b4b64ab-5b91-4911-afb0-121c17de47cd",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_premium_THALYS_all_Premium",
+                            "segments": [
+                                "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 440,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 13.2,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 440,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 13.2,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "aae32df1-2704-4444-95eb-f77238b738af",
+            "comfortCategory": {
+                "code": "PREMIER",
+                "label": "Premier"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "380c2666-3823-436e-8704-3565f4bd9c0e",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 298,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 8.94,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130485125Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/380c2666-3823-436e-8704-3565f4bd9c0e",
+            "fareOffers": [
+                {
+                    "id": "6f7c0a3d-8d6b-4033-814d-8522a3f79e51",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_standard_THALYS_all_Standard",
+                            "segments": [
+                                "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 298,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 8.94,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 298,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 8.94,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "8de00129-5f10-4d42-9ebe-be7ac5eda449"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "aae32df1-2704-4444-95eb-f77238b738af",
+            "comfortCategory": {
+                "code": "STANDARD",
+                "label": "Standard"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "33094d3d-5ea7-46ee-ab57-63e622788c86",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 338,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 10.14,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130485259Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/33094d3d-5ea7-46ee-ab57-63e622788c86",
+            "fareOffers": [
+                {
+                    "id": "ebfbe3aa-cc37-4865-b07d-4f652a4b6c87",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_comfort_THALYS_all_Comfort",
+                            "segments": [
+                                "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 338,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 10.14,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 338,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 10.14,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "8c676dc9-5f2e-438f-ac94-438980b1e32c",
+            "comfortCategory": {
+                "code": "COMFORT",
+                "label": "Comfort"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "45ac91b0-de0c-46c0-bcd9-010f1d563182",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 298,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 8.94,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130485372Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/45ac91b0-de0c-46c0-bcd9-010f1d563182",
+            "fareOffers": [
+                {
+                    "id": "d5b7fb88-8053-4be8-9070-3d28399895ef",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_standard_THALYS_all_Standard",
+                            "segments": [
+                                "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 298,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 8.94,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 298,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 8.94,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "8c676dc9-5f2e-438f-ac94-438980b1e32c",
+            "comfortCategory": {
+                "code": "STANDARD",
+                "label": "Standard"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        },
+        {
+            "type": "point-to-point-offer",
+            "id": "b1b1f993-5308-44ca-9a2d-8526137a9c21",
+            "prices": {
+                "billings": [
+                    {
+                        "billingPrice": {
+                            "amount": {
+                                "value": 440,
+                                "currency": "EUR"
+                            }
+                        },
+                        "partnerCommission": {
+                            "amount": {
+                                "value": 13.2,
+                                "currency": "EUR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "expirationDate": "2023-08-14T10:37:05.130485486Z",
+            "location": "/offers/point-to-point/searches/2fc5e2a7-d4b1-4ecf-a2c8-379e270e12ed/offers/b1b1f993-5308-44ca-9a2d-8526137a9c21",
+            "fareOffers": [
+                {
+                    "id": "406cfd0a-868d-4a4c-aa4a-bf16370fcf82",
+                    "fares": [
+                        {
+                            "productCode": "Thalys_premium_THALYS_all_Premium",
+                            "segments": [
+                                "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                            ],
+                            "travelers": [
+                                "traveler-adult-1",
+                                "traveler-senior-2"
+                            ]
+                        }
+                    ],
+                    "prices": {
+                        "billings": [
+                            {
+                                "billingPrice": {
+                                    "amount": {
+                                        "value": 440,
+                                        "currency": "EUR"
+                                    }
+                                },
+                                "partnerCommission": {
+                                    "amount": {
+                                        "value": 13.2,
+                                        "currency": "EUR"
+                                    }
+                                }
+                            }
+                        ],
+                        "ticket": {
+                            "billings": [
+                                {
+                                    "billingPrice": {
+                                        "amount": {
+                                            "value": 440,
+                                            "currency": "EUR"
+                                        }
+                                    },
+                                    "partnerCommission": {
+                                        "amount": {
+                                            "value": 13.2,
+                                            "currency": "EUR"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "serviceOffers": [
+                {
+                    "service": "359c2590-cbca-4354-a47f-7903ec6dd2da",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "47352e36-3bb6-4438-8ffa-6dece66345fa",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                },
+                {
+                    "service": "2993ae30-312a-47e1-9e61-14ae75269595",
+                    "segments": [
+                        "9ff4e799-a4fa-47ce-812b-8225a42cc138"
+                    ],
+                    "travelers": [
+                        "traveler-adult-1",
+                        "traveler-senior-2"
+                    ]
+                }
+            ],
+            "legSolution": "8c676dc9-5f2e-438f-ac94-438980b1e32c",
+            "comfortCategory": {
+                "code": "PREMIER",
+                "label": "Premier"
+            },
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "ticketingOptions": [
+                {
+                    "code": "PAH"
+                },
+                {
+                    "code": "PAH"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "type": "point-to-point",
+            "code": "Thalys_standard_THALYS_all_Standard",
+            "label": "Leisure",
+            "marketingCarrier": "THALYS",
+            "supplier": "SNCF",
+            "paxType": {
+                "code": "all",
+                "label": "LH_All"
+            },
+            "cabinClass": {
+                "code": "Standard",
+                "label": "Standard",
+                "comfortCategory": {
+                    "code": "STANDARD",
+                    "label": "Standard"
+                }
+            },
+            "fare": {
+                "label": "Leisure",
+                "flexibility": {
+                    "code": "SEMI_FLEX",
+                    "label": "Semi Flex",
+                    "level": 2
+                },
+                "conditions": "<p>Refund: If ticket not used, refundable 7 days before train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges:  If ticket not used, exchangeable 7 days before train departure, then exchangeable with 15€ fees from 6 days until departure date. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n"
+            },
+            "conditions": "<p>Refund: If ticket not used, refundable 7 days before train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges:  If ticket not used, exchangeable 7 days before train departure, then exchangeable with 15€ fees from 6 days until departure date. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n",
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "comfortCategory": {
+                "code": "STANDARD",
+                "label": "Standard"
+            }
+        },
+        {
+            "type": "point-to-point",
+            "code": "Thalys_comfort_THALYS_all_Comfort",
+            "label": "Leisure",
+            "marketingCarrier": "THALYS",
+            "supplier": "SNCF",
+            "paxType": {
+                "code": "all",
+                "label": "LH_All"
+            },
+            "cabinClass": {
+                "code": "Comfort",
+                "label": "Comfort",
+                "comfortCategory": {
+                    "code": "COMFORT",
+                    "label": "Comfort"
+                }
+            },
+            "fare": {
+                "label": "Leisure",
+                "flexibility": {
+                    "code": "SEMI_FLEX",
+                    "label": "Semi Flex",
+                    "level": 2
+                },
+                "conditions": "<p>Refund: If ticket not used, refundable 7 days before train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges:  If ticket not used, exchangeable 7 days before train departure, then exchangeable with 15€ fees from 6 days until departure date. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n"
+            },
+            "conditions": "<p>Refund: If ticket not used, refundable 7 days before train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges:  If ticket not used, exchangeable 7 days before train departure, then exchangeable with 15€ fees from 6 days until departure date. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n",
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "comfortCategory": {
+                "code": "COMFORT",
+                "label": "Comfort"
+            }
+        },
+        {
+            "type": "point-to-point",
+            "code": "Thalys_premium_THALYS_all_Premium",
+            "label": "Flexi-Plus",
+            "marketingCarrier": "THALYS",
+            "supplier": "SNCF",
+            "paxType": {
+                "code": "all",
+                "label": "LH_All"
+            },
+            "cabinClass": {
+                "code": "Premium",
+                "label": "Premium",
+                "comfortCategory": {
+                    "code": "PREMIER",
+                    "label": "Premier"
+                }
+            },
+            "fare": {
+                "label": "Flexi-Plus",
+                "flexibility": {
+                    "code": "SEMI_FLEX",
+                    "label": "Semi Flex",
+                    "level": 2
+                },
+                "conditions": "<p>Refunds: If ticket not used, refundable until one hour after train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges: If ticket not used, exchangeable until one hour after train departure. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n<p></p>\n"
+            },
+            "conditions": "<p>Refunds: If ticket not used, refundable until one hour after train departure. Thereafter, no refund allowed.&nbsp;</p>\n<p>Exchanges: If ticket not used, exchangeable until one hour after train departure. Thereafter, no exchange allowed.</p>\n<p>WARNING: Please note that 3 extra business days may be needed to process the aftersales through your travel agency</p>\n<p></p>\n",
+            "flexibility": {
+                "code": "SEMI_FLEX",
+                "label": "Semi Flex",
+                "level": 2
+            },
+            "comfortCategory": {
+                "code": "PREMIER",
+                "label": "Premier"
+            }
+        }
+    ]
+}
